@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Infinite Holdings Company - T-shirt printing, business registration, tax return filing, tender applications and online services in Ilala Bungoni, Dar es Salaam.">
+  <meta name="theme-color" content="#102a63">
+  <title>Infinite Holdings Company | Tupo Kukuhudumia</title>
+  <style>
+    :root{--navy:#102a63;--blue:#1746a2;--gold:#ffbf18;--ink:#17233b;--muted:#64718a;--paper:#f5f7fc;--white:#fff}
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--white);line-height:1.6}
+    a{color:inherit;text-decoration:none}.container{width:min(1120px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid #e8edf5}
+    .nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:800;color:var(--navy);line-height:1.05}
+    .mark{width:48px;height:38px;display:grid;place-items:center;font-size:32px;font-weight:900;color:var(--blue);border-radius:12px}
+    .brand small{display:block;color:#69758b;font-size:10px;letter-spacing:2px;margin-top:5px}
+    nav{display:flex;gap:22px;align-items:center;font-size:14px;font-weight:700}
+    nav a:hover{color:var(--blue)}.nav-cta,.btn{background:var(--gold);color:#142653;padding:12px 18px;border-radius:999px;font-weight:800;display:inline-block}
+    .menu{display:none;background:none;border:0;font-size:26px;color:var(--navy)}
+    .hero{background:radial-gradient(circle at 85% 20%,#3159aa 0,transparent 30%),linear-gradient(120deg,#0d2254,#1746a2);color:#fff;padding:88px 0 82px;overflow:hidden}
+    .hero-grid{display:grid;grid-template-columns:1.12fr .88fr;gap:45px;align-items:center}
+    .eyebrow{color:var(--gold);font-size:13px;font-weight:800;letter-spacing:2px;text-transform:uppercase}
+    h1{font-size:clamp(38px,6vw,66px);line-height:1.04;margin:14px 0 20px;letter-spacing:-1.8px}
+    .hero p{font-size:18px;color:#e1e9ff;max-width:600px;margin:0 0 28px}
+    .hero-actions{display:flex;gap:12px;flex-wrap:wrap}.btn-outline{border:1px solid #b9c9f2;color:#fff;padding:11px 18px;border-radius:999px;font-weight:700}
+    .hero-card{background:#fff;color:var(--navy);padding:26px;border-radius:24px;box-shadow:0 24px 65px #06163c66;transform:rotate(1deg)}
+    .infinity{font-size:78px;line-height:1;color:var(--blue);font-weight:900;text-align:center}
+    .hero-card h2{text-align:center;margin:2px 0 5px;font-size:25px}.hero-card p{text-align:center;color:var(--muted);font-size:14px;margin:0}
+    .mini-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:22px}
+    .mini{background:#f0f4ff;border-radius:13px;padding:13px;text-align:center;font-size:13px;font-weight:800}
+    section{padding:76px 0}.section-head{text-align:center;max-width:700px;margin:0 auto 38px}
+    .section-head h2{font-size:clamp(28px,4vw,40px);line-height:1.15;color:var(--navy);margin:8px 0 12px}
+    .section-head p{color:var(--muted);margin:0}
+    .services{background:var(--paper)}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{background:#fff;border:1px solid #e7ebf4;border-radius:18px;padding:24px;box-shadow:0 8px 24px #162b5710}
+    .icon{width:48px;height:48px;border-radius:14px;background:#fff4ce;display:grid;place-items:center;font-size:24px;margin-bottom:16px}
+    .card h3{color:var(--navy);margin:0 0 8px;font-size:19px}.card p{color:var(--muted);font-size:14px;margin:0}
+    .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+    .about-panel{background:linear-gradient(145deg,#eaf0ff,#fff5d8);padding:35px;border-radius:24px}
+    .about-panel strong{display:block;color:var(--navy);font-size:28px;line-height:1.2;margin-bottom:12px}
+    .ticks{list-style:none;padding:0;margin:20px 0}.ticks li{margin:10px 0}.ticks li:before{content:"✓";color:#0c9b63;font-weight:900;margin-right:10px}
+    .about-copy h2{font-size:36px;line-height:1.15;color:var(--navy);margin:8px 0 16px}.about-copy p{color:var(--muted)}
+    .contact{background:var(--navy);color:#fff}.contact .section-head h2{color:#fff}.contact .section-head p{color:#d8e2ff}
+    .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+    .contact-box{background:#fff;color:var(--ink);border-radius:20px;padding:28px}
+    .contact-box h3{color:var(--navy);margin-top:0}.contact-line{padding:12px 0;border-bottom:1px solid #edf0f6}
+    .contact-line:last-child{border:0}.contact-line span{display:block;color:var(--muted);font-size:12px;text-transform:uppercase;font-weight:800;letter-spacing:1px}
+    .contact-line a{font-weight:800;color:var(--blue)}
+    .contact-note{background:#1b3c83;border:1px solid #4866a6;border-radius:20px;padding:28px;display:flex;flex-direction:column;justify-content:center}
+    .contact-note h3{font-size:28px;margin:0 0 10px}.contact-note p{color:#d8e2ff}
+    footer{background:#091a42;color:#cbd6f1;padding:22px 0;font-size:13px}
+    .foot{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    .wa{position:fixed;right:20px;bottom:20px;z-index:20;background:#19b968;color:#fff;padding:14px 19px;border-radius:999px;font-weight:800;box-shadow:0 8px 25px #0003}
+    @media(max-width:800px){nav{display:none;position:absolute;top:76px;left:0;right:0;background:#fff;padding:18px 4%;flex-direction:column;align-items:flex-start;border-bottom:1px solid #e8edf5}nav.open{display:flex}.menu{display:block}.hero{padding:62px 0}.hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}.hero-card{max-width:460px;margin:auto}.cards{grid-template-columns:repeat(2,1fr)}section{padding:58px 0}}
+    @media(max-width:540px){.cards{grid-template-columns:1fr}.hero p{font-size:16px}.nav-cta{display:none}.contact-box,.contact-note{padding:22px}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="#home" aria-label="Infinite Holdings Company home">
+      <span class="mark">∞</span><span>INFINITE HOLDINGS COMPANY<small>TUPO KUKUH​UDUMIA</small></span>
+    </a>
+    <button class="menu" aria-label="Open navigation" onclick="document.querySelector('nav').classList.toggle('open')">☰</button>
+    <nav>
+      <a href="#home">Home</a><a href="#services">Services</a><a href="#about">About Us</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-cta" href="https://wa.me/255752326985" target="_blank" rel="noopener">WhatsApp Us</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div>
+        <div class="eyebrow">Your trusted business service partner</div>
+        <h1>Ideas to service.<br><span style="color:#ffca32">We make it happen.</span></h1>
+        <p>From custom T-shirt printing to business registration, tax return filing and online services, Infinite Holdings Company is here to serve you.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#services">Explore Our Services</a>
+          <a class="btn-outline" href="https://wa.me/255752326985" target="_blank" rel="noopener">Chat on WhatsApp</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="infinity">∞</div>
+        <h2>INFINITE HOLDINGS</h2>
+        <p>COMPANY</p>
+        <div class="mini-grid">
+          <div class="mini">👕 T-Shirt Printing</div><div class="mini">📄 Online Services</div>
+          <div class="mini">🏢 Business Registration</div><div class="mini">📊 Tax & Tenders</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">What we do</div>
+        <h2>Our Services</h2>
+        <p>Reliable support for individuals, entrepreneurs, groups and businesses.</p>
+      </div>
+      <div class="cards">
+        <article class="card"><div class="icon">👕</div><h3>T-Shirt Printing</h3><p>Custom T-shirt printing for companies, schools, events, teams and groups. Bring your design or let us help you prepare one.</p></article>
+        <article class="card"><div class="icon">🏢</div><h3>BRELA Registration</h3><p>Assistance with company registration and business name registration processes.</p></article>
+        <article class="card"><div class="icon">📊</div><h3>Tax Return Filing</h3><p>Support with tax return preparation and online filing services.</p></article>
+        <article class="card"><div class="icon">📋</div><h3>Government Tender Applications</h3><p>Assistance with online tender application processes, including NeST-related services.</p></article>
+        <article class="card"><div class="icon">📜</div><h3>Birth Certificate Applications</h3><p>Guidance and assistance with birth certificate application procedures.</p></article>
+        <article class="card"><div class="icon">💻</div><h3>Online & Stationery Services</h3><p>Typing, data entry, document preparation and other online and stationery services.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container about-grid">
+      <div class="about-panel">
+        <div class="infinity">∞</div>
+        <strong>Infinite possibilities.<br>Practical solutions.</strong>
+        <p>One place for everyday business and document support.</p>
+      </div>
+      <div class="about-copy">
+        <div class="eyebrow">About our company</div>
+        <h2>We are here to make your work easier.</h2>
+        <p>Infinite Holdings Company provides practical printing, registration, tax and online support services to customers in Dar es Salaam and beyond.</p>
+        <p>We value clear communication, dependable service and helping customers complete their tasks with confidence.</p>
+        <ul class="ticks">
+          <li>Friendly customer support</li>
+          <li>Convenient access to multiple services</li>
+          <li>Solutions for individuals and businesses</li>
+        </ul>
+        <a class="btn" href="#contact">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Let's talk</div>
+        <h2>Contact Infinite Holdings Company</h2>
+        <p>Have a question or need a service? Get in touch with our team.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-box">
+          <h3>Our Contact Details</h3>
+          <div class="contact-line"><span>Phone / WhatsApp</span><a href="tel:+255752326985">+255 752 326 985</a></div>
+          <div class="contact-line"><span>Location</span><strong>Ilala Bungoni, Dar es Salaam, Tanzania</strong></div>
+          <div class="contact-line"><span>Business</span><strong>Infinite Holdings Company</strong></div>
+        </div>
+        <div class="contact-note">
+          <div class="eyebrow">Tupo kukuhudumia</div>
+          <h3>Need a service today?</h3>
+          <p>Send us a WhatsApp message and tell us what you need. We will be happy to assist.</p>
+          <a class="btn" style="width:max-content" href="https://wa.me/255752326985?text=Hello%20Infinite%20Holdings%20Company%2C%20I%20would%20like%20to%20ask%20about%20your%20services." target="_blank" rel="noopener">Message Us on WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer><div class="container foot"><span>© <span id="year"></span> Infinite Holdings Company. All rights reserved.</span><span>Your Design, Our Creativity — Tupo Kukuhudumia!</span></div></footer>
+<a class="wa" href="https://wa.me/255752326985" target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp">☏ WhatsApp</a>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
